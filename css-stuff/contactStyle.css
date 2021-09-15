@@ -1,15 +1,15 @@
-/*    font-family: 'Oswald', sans-serif;
-
-    font-family: 'Staatliches', cursive;
-
-    font-family: 'Work Sans', sans-serif; */
-* {
-    box-sizing: border-box;
-}
 body{
     background-color: #FFFCF2;
     margin: 0;
     padding: 0;
+}
+
+
+/*Eventually try to erase this section and make it work using style.css*/
+/*Starting Here*/
+/* .link is for the nav */
+* {
+    box-sizing: border-box;
 }
 header {
     background-color: #403D39;
@@ -22,11 +22,11 @@ header {
     left: 0;
 }
 
-/*logo on nav*/
 .logo img{
     float: left;
     width: 75px;
 }
+
 
 .link{
     float: right;
@@ -53,62 +53,53 @@ header {
     border: 2px solid white;
 }
 
+link a:active {
+    color:rgb(255, 255, 255);
+    background-color: #1697A6;
+}
+
 .clear-fix::after {
     clear: both;
     content: ' ';
     display: block;
 }
 
-/*hero section*/
-.hero {
-    margin: 0;
-    padding: 0;
+/*Ending Here*/
+
+
+/*div holding the h1 and p tag within the form*/
+.top-section{
+    text-align: center;
+}
+
+/*The Form section*/
+.main-content {
+    background-color: #CCC5B9;
+    border: 2px solid black;
+    width: 40%;
+    padding: 30px;
+    margin: 80px auto 15px auto;
+    border-radius: 5%;
+    box-shadow: 19px 9px 0px rgb(19, 18, 18);
+    
+}
+
+/*working on the type="text" portion*/
+input[type=text]{
+    border-radius: 4px;
+
+
+}
+
+/*working on submit button*/
+input[type=submit]{
     width: 100%;
-    height: 610px;
-}
-
-.hero p {
-    border: 2px solid red;
-    top: 35px;
-    right: 25px;
-}
-
-.road {
-    margin: 0;
-    padding: 0;
-}
-
-.road img{
-    width: 100vw;
-    height: 100vh;
-}
-
-/*fact container*/
-.factContainer {
-    padding: 50px;
-}
-
-.columns {
-    float: left;
-    width: 33.3%;
-
-    border-top: 2px dashed #CCC5B9;
-    border-bottom: 2px dashed #CCC5B9;
-}
-
-/*about section*/
-.about{
-    border: 2px solid orange;
-}
-
-.about .main {
-    float: left;
-    width: 50%;
-}
-
-.about iframe {
-    float: right;
-    width: 50%;
+    background-color: #1697A6;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 footer {
