@@ -1,8 +1,6 @@
-/*    font-family: 'Oswald', sans-serif;
+/*      font-family: 'Patua One', cursive;
 
-    font-family: 'Staatliches', cursive;
-
-    font-family: 'Work Sans', sans-serif; */
+        font-family: 'Raleway', sans-serif; */
 * {
     box-sizing: border-box;
 }
@@ -30,11 +28,12 @@ header {
 
 .link{
     float: right;
-    width: 40%;
+    width: 44%;
     margin-top: 2%;
 }
 
 .link li{
+    font-family: 'Patua One', cursive;
     font-weight: 500;
     font-size: 24pt;
     display: inline-block;
@@ -85,25 +84,42 @@ header {
 
 /*fact container*/
 .factContainer {
-    padding: 50px;
+    padding: 30px;
 }
 
 .columns {
     float: left;
     width: 33.3%;
-
     border-top: 2px dashed #CCC5B9;
     border-bottom: 2px dashed #CCC5B9;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    
+}
+
+.columns h3, .main h2{
+    font-family: 'Patua One', cursive;
+    font-weight: 200;
+    text-align: center;
+    text-decoration: underline;
 }
 
 /*about section*/
+/*
 .about{
-    border: 2px solid orange;
+
 }
+*/
 
 .about .main {
     float: left;
-    width: 50%;
+    width: 45%;
+    margin-left: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 1.5em;/*only spot used em measurement. good starter setting 1.4 - 1.5 em*/
 }
 
 .about iframe {
