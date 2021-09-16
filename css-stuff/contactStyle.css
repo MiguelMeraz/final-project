@@ -4,8 +4,6 @@ body{
     padding: 0;
 }
 
-
-/*Eventually try to erase this section and make it work using style.css*/
 /*Starting Here*/
 /* .link is for the nav */
 * {
@@ -45,6 +43,10 @@ header {
     text-decoration: none;
     color: rgb(255, 255, 255);
     border-radius: 10%;
+}
+
+.link .faulty{
+    visibility: hidden;
 }
 
 .link a:hover{
@@ -134,4 +136,39 @@ footer i{
     margin-left: 2px;
     height: auto;
     filter: grayscale(75%);
+}
+
+/*Impossible list content */
+
+.holder {
+    margin: 80px auto 15px auto;
+    width: 75%;
+    height: 1275px;
+    text-align: center;
+}
+
+.holder h1 {
+    font-family: 'Patua One', cursive;
+    font-weight: 300;
+    font-size: 48pt;
+    text-decoration: underline;
+}
+
+.holder h2 {
+    font-family: 'Patua One', cursive;
+    font-weight: 200;
+    font-size: 24pt;
+    text-decoration: underline;
+}
+
+.holder p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 18pt;
+}
+
+.holder li{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 16pt;
 }
